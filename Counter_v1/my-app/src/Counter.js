@@ -35,7 +35,7 @@ class Counter extends Component
   {
     if(c==="Up")
     {
-      this.setState({Num:this.state.Num+1})
+      this.setState({Num:this.state.Num-""+1})
     }
     else if(c==="Down")
     {
