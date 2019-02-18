@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.currentContainer {
+    padding: 30px 0;
+   
+    color: white;
+    font-weight: 200;
+    text-align: center;
+    transition: background-color linear 1.5s;
+    height: 30vh;
+}
+
+
+.sunrise {
+    background: linear-gradient(120deg, #514386, #cd783c);
+}
+
+.day {
+    background: linear-gradient(120deg, #3baed4, #6dd5fa);
+}
+
+.sunset {
+    background: linear-gradient(120deg, #cd783c, #514386);
+}
+
+.night {
+    background: linear-gradient(120deg, #22213e, #2f2a54);
+}
+
+
+.currentWeather {
+    width: 60%;
+    margin: auto;
+}
+
+.location {
+    font-size: 3.2em;
+}
+
+.location .cityName {
+    font-weight: 400;
+}
+
+.currentWeather {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 40px;
+}
+
+.blockDate {
+    padding-top: 5px;
+}
+
+.blockDate::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 75px;
+    background-color: white;
+    top: 82px;
+    left: 155px;
+
+}
+
+.currentTime {
+    font-size: 2.5em;
+}
+
+.currentDay {
+    font-size: 1em;
+}
+
+.currentTemperature {
+    font-size: 3.2em;
+    float: right;
+}
+
+.currentIcon {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 13px;
+    width: 40px;
+    height: 40px;
+}
+
+.currentInfos{
+    width : 100%;
+}
+.currentSky {
+    float: left;
+    font-size: 0.8em;
+    min-width: 100px;
+    text-align: left;
+}
+
+.currentRain {
+    float: right;
+    font-size: 0.8em;
+}
+
+.currentRain::before {
+    content: "";
+    background: url("rain_risk.svg");
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+.categorie-name {
+    color: #1d1d1d;
+    font-weight: 300;
+    margin: 15px 0 5px 25px;
+}
+
+hr {
+    height: 1px;
+    width: 85%;
+    margin: auto;
+    padding: 0;
+    color: #1d1d1d;
+    background-color: #1d1d1d;
+    border: 0;
+}
+
+.skyDay, .skyWeek {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 97%;
+    margin: -108px auto 0 auto;
+}
+
+.skyDay img, .skyWeek img {
+    width: 30%;
+    margin: auto;
+}
