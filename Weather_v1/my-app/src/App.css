@@ -1,0 +1,249 @@
+/***************************** DEFAULTS ***************************************/
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*************************** CSS CUSTOM VARIABLES SCSS********************************/
+:root{
+	--backgroundcolor:#EDEDED;
+	--darkgrey: #B3B3B3;
+	--lightgrey: #D5D5D5;
+	--verylightgrey: #;
+	--darkpink: #F3508D;
+	--sunny:linear-gradient(to top, #f77062 0%, #fe5196 100%);
+	--sunnyright:linear-gradient(to left, #f77062 0%, #fe5196 100%);;
+}
+/*******************************************************/
+.fullcontent{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	background-color: var(--backgroundcolor);
+}
+.wrapper{
+	width:55%;
+	height: 80%;
+	margin: auto;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	overflow: hidden;
+	border-radius: 8px;
+}
+.wrapper *{
+	margin: 0;
+	padding: 0;
+}
+.pic{
+	background-image: var(--sunny);
+	background-size: cover;
+	flex-basis:40%;
+	flex-grow:1;
+	/*color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0% 2% 9% 7%;*/
+}
+.picwrapper{
+	width: 100%;
+	height: 100%;
+	/*background-image: var(--sunny);
+	background-size: cover;*/
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 0% 0% 13% 13%;
+}
+.picwrapper h1{
+	font-size: 6rem;
+	font-weight: 300;
+	margin-bottom: -15px;
+	letter-spacing: -5px;
+}
+.picwrapper h2{
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+.info{
+	background-color: #FFFFFF;
+	flex-basis:60%;
+	flex-grow:1;
+	color: var(--darkgrey);
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+}
+.info .location{
+	flex-basis:25%;
+	flex-grow:1;
+	display: flex;
+}
+.info .location form{
+	margin: auto;
+}
+form input[type=text] {
+	width: 30%;
+	font-size: 1rem;
+    border: none;
+    border-bottom:4px solid transparent;
+    border-image-source: var(--sunnyright);
+    border-image-slice: 1;
+    border-image-width: 0 0 2px 0;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    padding: 4px 4px;
+	margin: 0px 8px 0px 0px;
+	text-transform: capitalize;
+}
+form .btn{
+	font-size: 1rem;
+	color: white;
+	background: var(--sunnyright);
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 8px 14px;
+    border-radius: 2.2px;
+}
+.info .stats{
+	flex-basis:70%;
+	flex-grow:1;
+	display: flex;
+	flex-direction: column;
+}
+.stats p{
+	color: grey;
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid var(--lightgrey);
+	margin-bottom: 0.5rem;
+	margin-top: 4%;
+}
+.statpairbox{
+	flex-grow: 1;
+	display: flex;
+	flex-direction:column;
+	flex-wrap:nowrap;
+	justify-content: space-evenly;
+}
+.statpairbox .statpair{
+	font-size: 1.1rem;
+	color: grey;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content: space-between;
+	margin: 0rem 0rem 1rem 0rem;
+}
+.statpair .statvalue{
+	color: var(--darkpink);
+}
+.startmsg1{
+	font-size: 2.8rem;
+	line-height: 1.2;
+	margin-bottom: 15%;
+}
+.startmsg2{
+	font-size: 1.5rem;
+	line-height: 1.2;
+	margin-bottom: 30%;
+}
+
+/************************** media query ************************/
+/********************** Mobiles **********************************/
+@media screen and (max-width:520px ){
+	.wrapper{
+		width: 80%;
+		height: 95%;
+		display: flex;
+		flex-wrap:nowrap;
+		flex-direction:column;
+	}
+	.pic{
+		flex-basis:10%;
+		flex-grow:1;
+		padding: 0% 10%;
+	}
+	.info{
+		flex-basis:90%;
+		flex-grow:1;
+	}
+	.picwrapper{
+		padding: 20% 0% 30% 0%;
+	}
+	.picwrapper h1{
+		font-size: 5rem;
+		font-weight: 300;
+		margin-bottom: -5px;
+		letter-spacing: -10px;
+		text-align: center;
+		margin-left: 1.5rem;
+	}
+	.picwrapper h2{
+		font-size: 1.4rem;
+		font-weight: 400;
+		text-align: center;
+	}
+	.startmsg1{
+		font-size: 1.8rem;
+		line-height: 1.2;
+		margin-bottom: 0%;
+	}
+	.startmsg2{
+		display: none;
+		font-size: 1rem;
+		line-height: 1.2;
+		margin-bottom: 0;
+	}
+	.info .location{
+		flex-basis:25%;
+		flex-grow:1;
+		display: flex;
+	}
+	.info .location form{
+		margin: auto;
+		text-align: center;
+	}
+	.info .stats{
+		flex-basis:70%;
+		flex-grow:1;
+		display: flex;
+		flex-direction: column;
+	}
+	form input[type=text] {
+		width: 45%;
+		margin-bottom: 1rem;
+	}
+	form .btn{
+		width: 100%;
+	}
+}
+/*********************** tabular screens **************************/
+@media screen and (min-width:521px ) and (max-width:1000px ){
+	.wrapper{
+		width: 80%;
+	}
+}
+
+
+
+
+
+
+
+
+
