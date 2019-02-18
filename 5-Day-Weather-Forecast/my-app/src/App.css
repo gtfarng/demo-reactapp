@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+svg {
+  height: 15rem;
+  width: 25rem;
+}
+
+td, th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height: 15rem;
+  width: 15rem;
+}
+
+.App {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  min-height: 10rem;
+  padding:1rem 0 1rem 0;
+  color: white;
+}
+
+.App-title {
+  font-size: 4rem;
+}
+
+.form-control {
+  height: 4rem;
+}
+
+.glyphicon-search {
+  border: 1px solid #ccc;
+  font-size: 2rem;
+  height: 4rem;
+}
+
+.input-group {
+  display: inline-flex;
+  margin: 3rem auto 2rem auto;
+  width: 50rem;
+}
+
+.loading {
+  margin: 1em;
+}
