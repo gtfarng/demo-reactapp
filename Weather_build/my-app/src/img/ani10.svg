@@ -1,0 +1,9 @@
+<svg version="1.1" id="sunnyIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+<g id="outerRepeat" data-svg-origin="35 35" style="transform: matrix3d(0.998893, 0, 0, 0, 0, 0.998893, 0, 0, 0, 0, 1, 0, 0.0387346, 0.0387346, 0, 1); transform-origin: 0px 0px 0px;">
+	<circle id="outer" fill="#FFE499" cx="35" cy="35" r="23.5" data-svg-origin="35 35" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+</g>
+<g id="middleRepeat" data-svg-origin="35 35" style="transform-origin: 0px 0px 0px; transform: matrix3d(0.951725, 0, 0, 0, 0, 0.951725, 0, 0, 0, 0, 1, 0, 1.68961, 1.68961, 0, 1);">
+	<circle id="middle" fill="#FFD766" cx="35" cy="35" r="18.1" data-svg-origin="35 35" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+</g>
+<circle id="inner" fill="#FFBC00" cx="35" cy="35" r="13.6" data-svg-origin="35 35" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+<desc>Created with Snap</desc><defs></defs></svg>

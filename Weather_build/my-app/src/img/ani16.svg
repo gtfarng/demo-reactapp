@@ -1,0 +1,31 @@
+<svg version="1.1" id="windySunnyIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="70px" height="70px" viewBox="0 0 70 70" enable-background="new 0 0 70 70" xml:space="preserve">
+<g id="sun_1_">
+	<g id="outerRepeat" data-svg-origin="28 25" style="transform: matrix3d(0.893084, 0, 0, 0, 0, 0.893084, 0, 0, 0, 0, 1, 0, 2.99365, 2.6729, 0, 1); transform-origin: 0px 0px 0px;">
+		<circle id="outer" fill="#FFE499" cx="28" cy="25" r="15.1" data-svg-origin="28 25" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+	</g>
+	<g id="middleRepeat" data-svg-origin="27.999999046325684 25" style="transform-origin: 0px 0px 0px; transform: matrix3d(0.802716, 0, 0, 0, 0, 0.802716, 0, 0, 0, 0, 1, 0, 5.52395, 4.9321, 0, 1);">
+		<circle id="middle" fill="#FFD766" cx="28" cy="25" r="11.7" data-svg-origin="27.999999046325684 25" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+	</g>
+	<circle id="inner" fill="#FFBC00" cx="28" cy="25" r="8.8" data-svg-origin="28.000000953674316 25.000000953674316" style="transform: matrix(1, 0, 0, 1, 0, 0);"></circle>
+</g>
+<g id="wind">
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="44.2" y1="32.2" x2="50.8" y2="32.2" data-svg-origin="44.20000076293945 32.20000076293945" style="opacity: 0.314; transform: matrix3d(0.314, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 30.3212, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="41" y1="35.7" x2="56" y2="35.7" data-svg-origin="41 35.70000076293945" style="opacity: 0.264; transform: matrix3d(0.264, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 30.176, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="37" y1="39.2" x2="52.3" y2="39.2" data-svg-origin="37 39.20000076293945" style="opacity: 0.214; transform: matrix3d(0.214, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 29.082, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="22.6" y1="42.7" x2="52.3" y2="42.7" data-svg-origin="22.600000381469727 42.70000076293945" style="opacity: 0.164; transform: matrix3d(0.164, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 18.8936, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="19.9" y1="46.1" x2="56" y2="46.1" data-svg-origin="19.899999618530273 46.099998474121094" style="opacity: 0.114; transform: matrix3d(0.114, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.6314, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="19.2" y1="49.6" x2="54.7" y2="49.6" data-svg-origin="19.200000762939453 49.599998474121094" style="opacity: 0.064; transform: matrix3d(0.064, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 17.9712, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="22.6" y1="53.1" x2="52.3" y2="53.1" data-svg-origin="22.600000381469727 53.099998474121094" style="opacity: 0.014; transform: matrix3d(0.014, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 22.2836, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="25.5" y1="56.6" x2="50.7" y2="56.6" data-svg-origin="25.5 56.599998474121094" style="opacity: 0; transform: matrix3d(0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 25.5, 0, 0, 1);"></line>
+	
+		<line fill="none" stroke="#FFFFFF" stroke-width="1.25" stroke-linecap="round" stroke-miterlimit="10" x1="27.8" y1="60.1" x2="50" y2="60.1" data-svg-origin="27.799999237060547 60.099998474121094" style="opacity: 0.036; transform: matrix3d(0.036, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 26.7992, 0, 0, 1);"></line>
+</g>
+<desc>Created with Snap</desc><defs></defs></svg>
